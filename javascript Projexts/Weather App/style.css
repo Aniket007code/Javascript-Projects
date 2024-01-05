@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.parentDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0CAFFF;
+}
+
+#output{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#output img{
+    /* margin: 5px; */
+    margin-right: 2rem;
+}
+
+#inputText{
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+    border: none;
+}
